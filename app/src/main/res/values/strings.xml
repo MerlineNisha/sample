@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">MyDearMechanic</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="quantity">
+        <item>Town/City</item>
+        <item>coyambadu</item>
+        <item>Kellys</item>
+        <item>Villivakkam</item>
+        <item>Thamparam</item>
+        <item>Perukulaththur</item>
+        <item>Nungapakkam</item>
+        <item>Sulaimedu</item>
+        <item>Chengalpattu</item>
+        <item>kanjpuram</item>
+    </string-array>
+    <string name="menu_home">Dashboard</string>
+    <string name="menu_gallery">My Profile</string>
+    <string name="menu_slideshow">Service Request</string>
+    <string name="manu_aboutus">About Us</string>
+    <string name="manu_share">Share this app</string>
+    <string name="manu_rules">Rules &amp; Regulations</string>
+    <string name="manu_language">Language</string>
+    <string name="manu_logout">Logout</string>
+    <string name="hyperlink">Existing Customer/Mechanic/Call Centre </string>
+    <string name="hyperlink4"> <a href="">Login here!!</a></string>
+    <string name="hyperlink1">New Customer/Mechanic/Call Centre Click to</string>
+    <string name="hyperlink2"><a href="">Register here!!</a></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

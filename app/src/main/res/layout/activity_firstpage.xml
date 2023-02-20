@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Firstpage">
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:orientation="vertical">
+     <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="10dp"
+         android:gravity="center">
+         <ImageView
+             android:layout_width="wrap_content"
+             android:layout_height="250dp"
+             android:background="@drawable/img"
+             />
+
+     </RelativeLayout>
+     <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="50dp"
+         android:layout_marginTop="10dp" >
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:text="You need immediate assistance?"
+             android:textSize="20dp"
+             android:textColor="#FF0000"
+             android:textAlignment="center"
+             android:id="@+id/textView"/>
+
+     </RelativeLayout>
+     <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:gravity="center">
+
+         <ImageView
+             android:id="@+id/img1"
+             android:layout_width="200dp"
+             android:layout_height="100dp"
+             android:layout_marginLeft="10dp"
+             android:background="@drawable/img_4" />
+
+     </RelativeLayout>
+     <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="30dp">
+         <Button
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="25dp"
+             android:text="Customer"
+             android:backgroundTint="#008080"
+             android:id="@+id/b1"/>
+
+         <Button
+             android:id="@+id/b2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:backgroundTint="#808000"
+             android:text="Mechanic"
+             android:layout_toRightOf="@+id/b1"/>
+
+         <Button
+             android:id="@+id/b3"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:backgroundTint="#800000"
+             android:text="Call Center"
+             android:layout_marginRight="20dp"
+             android:layout_toRightOf="@+id/b2"/>
+     </RelativeLayout>
+     <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="50dp"
+         android:layout_marginTop="10dp" >
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_marginTop="25dp"
+             android:text="One stop solutions for all your needs!!"
+             android:textSize="20dp"
+             android:textColor="#FF0000"
+             android:textAlignment="center"
+             android:id="@+id/textView1"/>
+
+     </RelativeLayout>
+
+
+ </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
